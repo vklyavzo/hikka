@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Аниме</title>
+        <link href="../style/general.css" rel="stylesheet" type="text/css">
+        <link href="../style/design.css" rel="stylesheet" type="text/css">
+        <link href="../style/all_anime.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="light_nav_foot">
+            <div id="logo">
+                <a href="../main.html"><img src="../images/HIKKA.png" height="100%"></a>
+            </div>
+            <div id="nav">
+                <div id="anime" class="activ"><a href="all_anime.html">Аниме</a></div>
+                <div id="manga"><a href="#">Манга</a></div>
+                <div id="random_search"><a href="#">Случайное</a></div>  
+                <div id="personal_account"><img src="https://w7.pngwing.com/pngs/134/36/png-transparent-anime-manga-fan-art-drawing-anime-girl-mammal-cg-artwork-black-hair.png"></div>
+            </div>
+        </nav>
+        <section id="filter_conteinet">
+            <div id="filter">
+                <div id="heading">Отфильтруем?</div>
+                <div class="label_text">Жанр:</div>
+                    <div id="select">
+                        <div id="select_content">
+                          <input id="singleSelect0" class="select_input" type="checkbox" name="singleSelect" value="Боевые искусства">
+                          <label for="singleSelect0" class="select_label">Боевые искусства</label>
+                          <input id="singleSelect1" class="select_input" type="checkbox" name="singleSelect" value="Боевик">
+                          <label for="singleSelect1" class="select_label">Боевик</label>
+                          <input id="singleSelect2" class="select_input" type="checkbox" name="singleSelect" value="Вампиры">
+                          <label for="singleSelect2" class="select_label">Вампиры</label>
+                          <input id="singleSelect3" class="select_input" type="checkbox" name="singleSelect" value="Гарем">
+                          <label for="singleSelect3" class="select_label">Гарем</label>
+                          <input id="singleSelect4" class="select_input" type="checkbox" name="singleSelect" value="Детектив">
+                          <label for="singleSelect4" class="select_label">Детектив</label>
+                          <input id="singleSelect5" class="select_input" type="checkbox" name="singleSelect" value="Драма">
+                          <label for="singleSelect5" class="select_label">Драма</label>
+                          <input id="singleSelect6" class="select_input" type="checkbox" name="singleSelect" value="Игра">
+                          <label for="singleSelect6" class="select_label">Игра</label>
+                          <input id="singleSelect7" class="select_input" type="checkbox" name="singleSelect" value="История">
+                          <label for="singleSelect7" class="select_label">История</label>
+                          <input id="singleSelect8" class="select_input" type="checkbox" name="singleSelect" value="Кемонобито">
+                          <label for="singleSelect8" class="select_label">Кемонобито</label>
+                          <input id="singleSelect9" class="select_input" type="checkbox" name="singleSelect" value="Киберпанк">
+                          <label for="singleSelect9" class="select_label">Киберпанк</label>
+                          <input id="singleSelect10" class="select_input" type="checkbox" name="singleSelect" value="Комедия">
+                          <label for="singleSelect10" class="select_label">Комедия</label>
+                          <input id="singleSelect11" class="select_input" type="checkbox" name="singleSelect" value="Меха">
+                          <label for="singleSelect11" class="select_label">Меха</label>
+                          <input id="singleSelect12" class="select_input" type="checkbox" name="singleSelect" value="Мистика">
+                          <label for="singleSelect12" class="select_label">Мистика</label>
+                          <input id="singleSelect13" class="select_input" type="checkbox" name="singleSelect" value="Музыкальный">
+                          <label for="singleSelect13" class="select_label">Музыкальный</label>
+                          <input id="singleSelect14" class="select_input" type="checkbox" name="singleSelect" value="Повседневность">
+                          <label for="singleSelect14" class="select_label">Повседневность</label>
+                          <input id="singleSelect15" class="select_input" type="checkbox" name="singleSelect" value="Постапокалиптика">
+                          <label for="singleSelect15" class="select_label">Постапокалиптика</label>
+                          <input id="singleSelect16" class="select_input" type="checkbox" name="singleSelect" value="Приключения">
+                          <label for="singleSelect16" class="select_label">Приключения</label>
+                          <input id="singleSelect17" class="select_input" type="checkbox" name="singleSelect" value="Психология">
+                          <label for="singleSelect17" class="select_label">Психология</label>
+                          <input id="singleSelect18" class="select_input" type="checkbox" name="singleSelect" value="Романтика">
+                          <label for="singleSelect18" class="select_label">Романтика</label>
+                          <input id="singleSelect19" class="select_input" type="checkbox" name="singleSelect" value="Сверхъестественное">
+                          <label for="singleSelect19" class="select_label">Сверхъестественное</label>
+                          <input id="singleSelect20" class="select_input" type="checkbox" name="singleSelect" value="Спорт">
+                          <label for="singleSelect20" class="select_label">Спорт</label>
+                          <input id="singleSelect21" class="select_input" type="checkbox" name="singleSelect" value="Сказка">
+                          <label for="singleSelect21" class="select_label">Сказка</label>
+                          <input id="singleSelect22" class="select_input" type="checkbox" name="singleSelect" value="Трагедия">
+                          <label for="singleSelect22" class="select_label">Трагедия</label>
+                          <input id="singleSelect23" class="select_input" type="checkbox" name="singleSelect" value="Триллер">
+                          <label for="singleSelect23" class="select_label">Триллер</label>
+                          <input id="singleSelect24" class="select_input" type="checkbox" name="singleSelect" value="Ужасы">
+                          <label for="singleSelect24" class="select_label">Ужасы</label>
+                          <input id="singleSelect25" class="select_input" type="checkbox" name="singleSelect" value="Фантастика">
+                          <label for="singleSelect25" class="select_label">Фантастика</label>
+                          <input id="singleSelect26" class="select_input" type="checkbox" name="singleSelect" value="Фэнтези">
+                          <label for="singleSelect26" class="select_label">Фэнтези</label>
+                          <input id="singleSelect27" class="select_input" type="checkbox" name="singleSelect" value="Школа">
+                          <label for="singleSelect27" class="select_label">Школа</label>
+                        </div>
+                      </div>
+                      <div id="selected"></div>
+                <div id="status">
+                    <div class="label_text">Статус:</div>
+                    <input type="radio" class="select_input_status" id="singleSelect28" value="вышел" name="status"><label class="select_label_status" for="singleSelect28">Вышло</label>
+                    <input type="radio" class="select_input_status" id="singleSelect29" value="онгоинг" name="status"><label class="select_label_status" for="singleSelect29">Онгоинг</label>
+                </div>
+                <div class="label_text">Сортировать по:</div>
+                <div id="select_sort" data-state="">
+                  <div id="select_title" data-default="Названию (А - Я)">Названию (А - Я)</div>
+                  <div id="select_sort_content">
+                    <input id="singleSelect30" class="select_sort_input" type="radio" name="singleSelect">
+                    <label for="singleSelect30" class="select_sort_label">Названию (А - Я)</label>
+                    <input id="singleSelect31" class="select_sort_input" type="radio" name="singleSelect">
+                    <label for="singleSelect31" class="select_sort_label">Дате выхода</label>
+                    <input id="singleSelect32" class="select_sort_input" type="radio" name="singleSelect">
+                    <label for="singleSelect32" class="select_sort_label">Просмотрам</label>
+                    <input id="singleSelect33" class="select_sort_input" type="radio" name="singleSelect">
+                    <label for="singleSelect33" class="select_sort_label">Лайкам</label>
+                    <input id="singleSelect34" class="select_sort_input" type="radio" name="singleSelect">
+                    <label for="singleSelect34" class="select_sort_label">Дизлайкам</label>
+                    
+                  </div>
+                </div>
+                <input type="reset" id="reset" value="Сбросить">
+                <input type="submit" id='submit'value="Применить">
+            
+        </section>
+        <div id="wrapper">
+        <section id="not_found">
+          <h2>Извините, но мы ничего не нашли по вашему запросу :(</h2>
+          <p>Приносим свои извинения!</p>
+          <img src="../images/sorry.gif">
+        </section>
+        <section id="all_anime"></section>
+      </div>
+        <footer id="footer" class="light_nav_foot">
+            <div id="marquee">
+                <span>Все видео на сайте предоставлены только для просмотра и не предполагают скачивания.<br>Техническая поддержка и помощь пользователям: hikka@gmail.com</span>
+            </div>
+        </footer>
+      </div>
+        <script src="https://kit.fontawesome.com/119056277a.js" crossorigin="anonymous"></script>
+        <script src="../src/filter.js"></script>
+        <script src="../src/cards.js"></script>
+    </body>
+    </html>
