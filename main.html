@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Главная</title>
+        <link href="style/general.css" rel="stylesheet" type="text/css">
+        <link href="style/design.css" rel="stylesheet" type="text/css">
+        <link href="style/main.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="light_nav_foot">
+            <div id="logo">
+                <a href="main.html"><img src="images/HIKKA.png" height="100%"></a>
+            </div>
+            <div id="nav">
+                <div id="anime"><a href="anime/all_anime.html">Аниме</a></div>
+                <div id="manga"><a href="#">Манга</a></div>
+                <div id="random_search"><a href="#">Случайное</a></div>  
+                <div id="personal_account"><img src="https://w7.pngwing.com/pngs/134/36/png-transparent-anime-manga-fan-art-drawing-anime-girl-mammal-cg-artwork-black-hair.png"></div>
+            </div>
+        </nav>
+        <!--рейтинг по просмотрам-->
+        <section id="top_3_anime">
+            <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://99px.ru/sstorage/53/2018/09/tmb_237603_452553.jpg" class="d-block w-100">
+                    <a href="#">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Безумный азарт / Kakegurui</h1>
+                            <div class="views"><i class="far fa-eye fa-2x"></i><span>200012</span></div>
+                            <div class="like"><i class="far fa-thumbs-up fa-2x"></i><span>10334</span></div>
+                            <div class="dislike"><i class="far fa-thumbs-down fa-2x"></i><span>29</span></div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://99px.ru/sstorage/53/2013/10/tmb_85268_5755.jpg" class="d-block w-100" alt="...">
+                    <a href="#">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Очень приятно, Бог / Kami-sama Hajimemashita </h1>
+                            <div class="views"><i class="far fa-eye fa-2x"></i><span>200012</span></div>
+                            <div class="like"><i class="far fa-thumbs-up fa-2x"></i><span>10334</span></div>
+                            <div class="dislike"><i class="far fa-thumbs-down fa-2x"></i><span>29</span></div>
+                        </div>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://kg-portal.ru/img/91137/main_2x.jpg" class="d-block w-100" alt="...">
+                    <a href="#">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>Добро пожаловать в ад, Ирума / Mairimashita! Iruma-kun</h1>
+                            <div class="views"><i class="far fa-eye fa-2x"></i><span>200012</span></div>
+                            <div class="like"><i class="far fa-thumbs-up fa-2x"></i><span>10334</span></div>
+                            <div class="dislike"><i class="far fa-thumbs-down fa-2x"></i><span>29</span></div>
+                        </div>
+                    </a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+          </section>
+          <!--рейтинг по лайкам-->
+          <section id="top_12">
+            <h2>Топ-12</h2>
+            <div id="top_12_conteiner">
+              <div class="top_conteiner">
+                  <img src="images/Death Note.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Тетрадь смерти / Death Note</div>
+                      <div class="genre">Жанры: <span>мистика</span>, <span>детектив</span>, <span>триллер</span>, <span>психология</span></div>
+                      <div class="year">Год выпуска: <span>2006</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>18+</span></div>
+                      <div class="about">
+                          <p>Жить человеку или не жить определяют боги смерти, рано или поздно внося его имя в особую тетрадь. Одна из таких тетрадей попадает в мир людей на территорию современной Японии. А что случится, если тетрадь бога Death Note окажется в руках человека? Ответ очевиден: он возомнит себя богом. Это и происходит с Ягами Лайтом - среднестатистическим, но не совсем обычным старшеклассником...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Shingeki no Kyojin.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Атака титанов / Shingeki no Kyojin</div>
+                      <div class="genre">Жанры: <span>приключения</span>, <span>боевик</span>, <span>триллер</span>, <span>драма</span>, <span>фэнтези</span></div>
+                      <div class="year">Год выпуска: <span>2013</span>,  <span>2017</span>, <span>2018</span>, <span>2020</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>18+</span></div>
+                      <div class="about">
+                          <p>Загнанное в угол человечество доживает свои последние дни под гнётом титанов - таинственных созданий, терроризирующих человеческую расу. Выжившие ютятся за стенами крупного поселения с собственным правительством, представляющим последний оплот централизованной власти в мире...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Tokyo Ghoul.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Токийский Гуль / Tokyo Ghoul</div>
+                      <div class="genre">Жанры: <span>боевик</span>, <span>драма</span>, <span>триллер</span>, <span>фантастика</span></div>
+                      <div class="year">Год выпуска: <span>2014</span>,  <span>2015</span>, <span>2018</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>18+</span></div>
+                      <div class="about">
+                          <p>Япония, альтернативная реальность. В этом мире параллельно с людьми существует раса гулей - созданий, стоящих выше людей в пищевой цепи, то есть людоедов. Тем не менее, людям удаётся сосуществовать с ними в относительном мире, однако стычки время от времени случаются. Под такую раздачу попадает обычный школьник Канеки, который становится жертвой могущественной женщины-гуля...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Kimi no Na wa.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Твоё имя / Kimi no Na wa</div>
+                      <div class="genre">Жанры: <span>драма</span>, <span>романтика</span>, <span>школьная жизнь</span>, <span>фантастика</span></div>
+                      <div class="year">Год выпуска: <span>2016</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>14+</span></div>
+                      <div class="about">
+                          <p>Сюжет разворачивается через месяц после первого падения кометы на Японию. Миянага Мицуба - старшеклассница, живущая в маленькой деревне и мечтающая жить в городе. Девушка видит сон о том, что она — это молодой человек Татибана Рю из Токио. Во сне Миянаге встречаются новые люди, неизвестные друзья и незнакомый ей Токио...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Noragami.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Бездомный бог / Noragami</div>
+                      <div class="genre">Жанры: <span>приключения</span>, <span>комедия</span>, <span>драма</span>, <span>фэнтези</span></div>
+                      <div class="year">Год выпуска: <span>2014</span>, <span>2015</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>16+</span></div>
+                      <div class="about">
+                          <p>Восток - дело тонкое, особенно если дело касается богов. Многообразие японского пантеона на руку далеко не всем, среди местных богов процветает конкуренция за место в умах людей, ведь те, о ком люди совсем позабудут, исчезают. Одному из таких древних мелких божков по имени Ято исчезать совсем неохота...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/One Punch Man.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Ванпанчмен / One Punch Man</div>
+                      <div class="genre">Жанры: <span>боевик</span>, <span>комедия</span>, <span>повседневность</span>, <span>фантастика</span></div>
+                      <div class="year">Год выпуска: <span>2015</span>, <span>2019</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>18+</span></div>
+                      <div class="about">
+                          <p>Каково живётся самому сильному человеку в мире? Не так уж и классно, как может показаться на первый взгляд. Когда ты всего достиг, научившись выносить злодеев буквально с одного удара, жизнь теряет краски, пропадает сам интерес к жизни, ведь не к чему стремиться. С подобным внутренним кризисом сталкивается Сайтама - самый сильный человек на планете...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Sword Art Online.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Мастера Меча Онлайн / Sword Art Online</div>
+                      <div class="genre">Жанры: <span>приключения</span>, <span>боевик</span>, <span>романтика</span>, <span>фантастика</span>, <span>фэнтези</span></div>
+                      <div class="year">Год выпуска: <span>2012</span>,: <span>2018</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>16+</span></div>
+                      <div class="about">
+                          <p>Представление о видеоиграх в корне изменилось с введением технологии Полного Погружения, повышающей уровень восприятия происходящего в игре до максимального. Данная технология применяется для создания революционной игры под названием «Мастера Меча Онлайн», которая соответствует всем стандартам ролевых игр с одной лишь разницей...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/No Game No Life.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Нет игры — нет жизни / No Game No Life</div>
+                      <div class="genre">Жанры: <span>приключения</span>, <span>комедия</span>, <span>фэнтези</span></div>
+                      <div class="year">Год выпуска: <span>2014</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>16+</span></div>
+                      <div class="about">
+                          <p>Редко можно увидеть ситуацию, когда брат с сестрой гармонично дополняют друг друга. Восемнадцатилетний Сора старше своей сестрёнки Широ на семь лет и у ребят есть общее увлечение, которое делает их жизнь необычной. Подростки обожают играть в онлайн-игры, и они хорошенько в этом преуспели. В одной из популярных игр персонажей этих вундеркиндов знают все игроки...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Yuri on Ice.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Юри на льду / Yuri on Ice</div>
+                      <div class="genre">Жанры: <span>комедия</span>, <span>повседневность</span></div>
+                      <div class="year">Год выпуска: <span>2016</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>16+</span></div>
+                      <div class="about">
+                          <p>Конкуренция в большом спорте очень велика и об этом прекрасно знал японский фигурист Юури Кацуки. Мальчишка с ранних лет занимается этим видом спортом, а потому достиг высоких результатов и право участвовать в мировых турнирах. Очередные соревнования были очень значимыми не только для фигуриста, но и для всей страны...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Juuni Taisen.png">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Война двенадцати / Juuni Taisen</div>
+                      <div class="genre">Жанры: <span>боевик</span></div>
+                      <div class="year">Год выпуска: <span>2017</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>18+</span></div>
+                      <div class="about">
+                          <p>Каждые двенадцать лет проходит кровопролитный турнир, на котором участвуют двенадцать бойцов. Каждый из воинов принадлежит одному из знаков зодиака, а также обладает удивительными способностями. Цена за победу в необычном состязании очень высока, ведь победитель получит возможность исполнить любое желание...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Hunter x Hunter.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Охотник х Охотник / Hunter x Hunter</div>
+                      <div class="genre">Жанры: <span>приключения</span>, <span>боевик</span>, <span>драма</span>, <span>фэнтези</span>, <span>триллер</span></div>
+                      <div class="year">Год выпуска: <span>2011</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>16+</span></div>
+                      <div class="about">
+                          <p>Профессия Охотника опасна и трудна, а перечень поручений крайне широк - от убийства чудовищ до поисков клада. Тем не менее, многие пускаются во все тяжкие в погоне за мечтой стать прославленным Охотником. Об этом задумывается и совсем ещё юный Гон, отец которого не только избежал смерти, но вдобавок ещё и стал величайшим Охотником в мире...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="top_conteiner">
+                  <img src="images/Shiguang Dailiren.jpg">
+                  <a href="#">
+                    <div class="top_text">
+                      <div class="heading">Агент времени / Shiguang Dailiren</div>
+                      <div class="genre">Жанры: <span>детектив</span>, <span>драма</span>, <span>фантастика</span>, <span>путешествие во времени</span>, <span>суперспособности</span></div>
+                      <div class="year">Год выпуска: <span>2021</span></div>
+                      <div class="status">Статус: <span>вышел</span></div>
+                      <div class="age_rating">Возрастной рейтинг: <span>14+</span></div>
+                      <div class="about">
+                          <p>«Во-первых, у тебя лишь 12 часов. Во-вторых, делай, как я говорю, и не вздумай ничего менять. В-третьих, что бы ни было в прошлом, будущее тебя не касается», — именно эти слова Лу Гуан всегда говорит Чэн Сяоши перед очередной миссией небольшой фотостудии «Time Photo Studio‎»‎...</p>
+                      </div>
+                      <div class="rating">
+                          <div class="views"><i class="far fa-eye"></i><span>200012</span></div>
+                          <div class="like"><i class="far fa-thumbs-up"></i><span>10334</span></div>
+                          <div class="dislike"><i class="far fa-thumbs-down"></i><span>29</span></div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              
+            </div>  
+          </section>
+          <footer id="footer" class="light_nav_foot">
+            <div id="marquee">
+              <span>Все видео на сайте предоставлены только для просмотра и не предполагают скачивания.<br>Техническая поддержка и помощь пользователям: hikka@gmail.com</span>
+            </div>
+          </footer>
+    </body>
+    <script></script>
+    <script src="https://kit.fontawesome.com/119056277a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</html>
